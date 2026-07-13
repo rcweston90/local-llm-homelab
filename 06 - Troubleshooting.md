@@ -6,7 +6,7 @@ created: 2026-06-14
 
 # 06 — Troubleshooting
 
-Back to [[README]] · Prev: [[05 - Tailored Plan (24GB M4)]] · Next: [[07 - Next Steps]]
+Back to [README](<README.md>) · Prev: [05 - Tailored Plan (24GB M4)](<05 - Tailored Plan (24GB M4).md>) · Next: [07 - Next Steps](<07 - Next Steps.md>)
 
 ## `claude-local: command not found`
 
@@ -28,12 +28,12 @@ Normal: the model loads into RAM on first use, then unloads after ~5 min idle. F
 
 ## Open WebUI shows no models
 
-The container can't reach the host's Ollama. It must use `http://host.docker.internal:11434` (not `localhost`). Verify from inside: `docker exec open-webui curl -s http://host.docker.internal:11434/api/tags`. If empty, recreate the container with the `-e OLLAMA_BASE_URL=...` flag (see [[02 - How to Run#Operate & maintain]]).
+The container can't reach the host's Ollama. It must use `http://host.docker.internal:11434` (not `localhost`). Verify from inside: `docker exec open-webui curl -s http://host.docker.internal:11434/api/tags`. If empty, recreate the container with the `-e OLLAMA_BASE_URL=...` flag (see [02 - How to Run](<02 - How to Run.md#operate--maintain>)).
 
 ## Nothing comes back after a reboot
 
 - **Ollama** should auto-start (`brew services list`). If "stopped": `brew services start ollama`.
-- **Open WebUI** only returns if Docker Desktop started at login. Enable it: Docker Desktop → Settings → General → *"Start Docker Desktop when you sign in."* See [[01 - Setup Instructions#Manual steps left to you]].
+- **Open WebUI** only returns if Docker Desktop started at login. Enable it: Docker Desktop → Settings → General → *"Start Docker Desktop when you sign in."* See [01 - Setup Instructions](<01 - Setup Instructions.md#manual-steps-left-to-you>).
 - If the Mac slept, enable "never sleep on power."
 
 ## Out of memory / system sluggish
@@ -42,4 +42,4 @@ A model + Open WebUI + your apps share 24 GB. Check Activity Monitor memory pres
 
 ## Model quality feels weak on a hard task
 
-Expected — that's the hard 20%. Fall back to cloud `claude`. See [[03 - Jobs to be Done]].
+Expected — that's the hard 20%. Fall back to cloud `claude`. See [03 - Jobs to be Done](<03 - Jobs to be Done.md>).

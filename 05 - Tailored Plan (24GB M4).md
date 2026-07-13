@@ -6,9 +6,9 @@ created: 2026-06-14
 
 # 05 — Tailored Plan (24 GB M4)
 
-Back to [[README]] · Prev: [[04 - Original Implementation Plan]] · Next: [[06 - Troubleshooting]]
+Back to [README](<README.md>) · Prev: [04 - Original Implementation Plan](<04 - Original Implementation Plan.md>) · Next: [06 - Troubleshooting](<06 - Troubleshooting.md>)
 
-The corrected, machine-specific version of [[04 - Original Implementation Plan]], fixed for the actual hardware: **Mac Mini M4, 24 GB**.
+The corrected, machine-specific version of [04 - Original Implementation Plan](<04 - Original Implementation Plan.md>), fixed for the actual hardware: **Mac Mini M4, 24 GB**.
 
 ## What the original got wrong
 
@@ -44,7 +44,7 @@ Box is bought, so every local month is straight savings. Against $200/mo, the su
 ## Caveats that apply to you
 
 - Ollama's Anthropic compatibility is new (Jan 2026) — streaming/tool-calling edge cases still being patched.
-- Current local coding model families have moved on (qwen3-coder, glm-4.7, minimax-m2.1); `qwen2.5-coder:14b` was chosen as the safe, comfortable dense 14B for 24 GB. Worth re-evaluating when pulling a new model — see [[02 - How to Run#Managing models]].
+- Current local coding model families have moved on (qwen3-coder, glm-4.7, minimax-m2.1); `qwen2.5-coder:14b` was chosen as the safe, comfortable dense 14B for 24 GB. Worth re-evaluating when pulling a new model — see [02 - How to Run](<02 - How to Run.md#managing-models>).
 
 ## Verified facts
 

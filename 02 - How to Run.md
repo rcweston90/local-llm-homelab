@@ -6,7 +6,7 @@ created: 2026-06-14
 
 # 02 — How to Run
 
-Back to [[README]] · Prev: [[01 - Setup Instructions]] · Next: [[03 - Jobs to be Done]]
+Back to [README](<README.md>) · Prev: [01 - Setup Instructions](<01 - Setup Instructions.md>) · Next: [03 - Jobs to be Done](<03 - Jobs to be Done.md>)
 
 ## What's running
 
@@ -17,7 +17,7 @@ Back to [[README]] · Prev: [[01 - Setup Instructions]] · Next: [[03 - Jobs to 
 | Claude Code → local | `claude-local` | per session |
 | Open WebUI (chat) | `http://localhost:3000` · LAN `http://<mac-lan-ip>:3000` | ✅ Docker* |
 
-\*Only if Docker Desktop starts at login — see [[01 - Setup Instructions#Manual steps left to you]].
+\*Only if Docker Desktop starts at login — see [01 - Setup Instructions](<01 - Setup Instructions.md#manual-steps-left-to-you>).
 
 ## Daily use
 
@@ -39,7 +39,7 @@ ollama rm <model>:<tag>     # remove one
 ollama ps                   # what's loaded in RAM now
 ```
 
-Sizing for 24 GB: 7–8B = fast · **14B = sweet spot (current)** · 30–32B = tight · 70B = won't fit → use cloud. Full table in [[05 - Tailored Plan (24GB M4)]].
+Sizing for 24 GB: 7–8B = fast · **14B = sweet spot (current)** · 30–32B = tight · 70B = won't fit → use cloud. Full table in [05 - Tailored Plan (24GB M4)](<05 - Tailored Plan (24GB M4).md>).
 
 ## Operate & maintain
 
@@ -78,4 +78,4 @@ Watch **Activity Monitor** memory pressure when running a model + Open WebUI + y
 - Keep ports **11434** and **3000** on the **LAN only**. Never port-forward to the public internet without auth + a reverse proxy.
 - Create the Open WebUI admin account immediately — first network visitor becomes admin.
 
-If something breaks → [[06 - Troubleshooting]].
+If something breaks → [06 - Troubleshooting](<06 - Troubleshooting.md>).

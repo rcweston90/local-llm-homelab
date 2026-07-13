@@ -6,7 +6,7 @@ created: 2026-06-14
 
 # 09 — Cost Model: does local cut Anthropic spend?
 
-Back to [[README]] · Related: [[03 - Jobs to be Done]]
+Back to [README](<README.md>) · Related: [03 - Jobs to be Done](<03 - Jobs to be Done.md>)
 
 ## The one rule
 
@@ -49,7 +49,7 @@ The expensive, scary line item is almost always the **metered, high-volume** one
 1. Note your current monthly Anthropic spend (subscriptions + any API).
 2. For 2 weeks, default to `claude-local` / the local model; only escalate to cloud when local visibly falls short.
 3. Track how often you escalate. If you rarely do, **downgrade/cancel** the now-redundant plan — that cancellation is the actual saving.
-4. Re-evaluate as local models improve (see [[07 - Next Steps]]).
+4. Re-evaluate as local models improve (see [07 - Next Steps](<07 - Next Steps.md>)).
 
 ## Bottom line
 

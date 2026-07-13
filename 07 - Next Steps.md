@@ -6,13 +6,13 @@ created: 2026-06-14
 
 # 07 — Next Steps
 
-Back to [[README]] · Prev: [[06 - Troubleshooting]]
+Back to [README](<README.md>) · Prev: [06 - Troubleshooting](<06 - Troubleshooting.md>)
 
 Optional improvements, roughly in order of value.
 
 ## Finish the always-on basics
 
-- [ ] Docker Desktop → start at login (so [[02 - How to Run|Open WebUI]] survives reboots)
+- [ ] Docker Desktop → start at login (so [Open WebUI](<02 - How to Run.md>) survives reboots)
 - [ ] Disable sleep on power
 - [ ] (Optional) enable SSH for headless admin
 - [ ] Create the Open WebUI admin account
@@ -25,7 +25,7 @@ The 14B is a safe daily driver, but worth experimenting:
 - [ ] A fast `7–8B` for instant everyday Q&A
 - [ ] A general (non-coding) model for writing/chat in Open WebUI
 
-Browse `ollama.com/library`; manage with the commands in [[02 - How to Run#Managing models]].
+Browse `ollama.com/library`; manage with the commands in [02 - How to Run](<02 - How to Run.md#managing-models>).
 
 ## Quality-of-life
 
@@ -38,10 +38,10 @@ Browse `ollama.com/library`; manage with the commands in [[02 - How to Run#Manag
 The original plan's "OpenClaw" was unverified. If you ever want a 24/7 agent loop pointed at local Ollama:
 
 > [!warning] Vet first
-> Confirm the real project, repo, license, and security posture. Never hand it messaging or financial/posting credentials you wouldn't give a stranger. Prefer well-known open-source frameworks that support a custom Anthropic/OpenAI base URL. See [[04 - Original Implementation Plan#Phase 6 optional 24 7 agent|Phase 6]].
+> Confirm the real project, repo, license, and security posture. Never hand it messaging or financial/posting credentials you wouldn't give a stranger. Prefer well-known open-source frameworks that support a custom Anthropic/OpenAI base URL. See [Phase 6](<04 - Original Implementation Plan.md#phase-6-optional--247-agent>).
 
 ## Housekeeping
 
 - [ ] Periodic `brew upgrade ollama` and Open WebUI image refresh
 - [ ] Re-pull models occasionally for updated weights
-- [ ] Revisit the [[03 - Jobs to be Done|local vs cloud line]] as local models improve
+- [ ] Revisit the [local vs cloud line](<03 - Jobs to be Done.md>) as local models improve

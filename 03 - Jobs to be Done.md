@@ -6,7 +6,7 @@ created: 2026-06-14
 
 # 03 — Jobs to be Done
 
-Back to [[README]] · Prev: [[02 - How to Run]] · Next: [[04 - Original Implementation Plan]]
+Back to [README](<README.md>) · Prev: [02 - How to Run](<02 - How to Run.md>) · Next: [04 - Original Implementation Plan](<04 - Original Implementation Plan.md>)
 
 The point of this server isn't "run AI locally" for its own sake — it's to move the **high-volume, low-difficulty** work off paid cloud services and onto hardware you already own, keeping cloud spend for only the work that truly needs it.
 
@@ -31,7 +31,7 @@ The deciding habit: start local. If the model stalls, loops, or the quality isn'
 
 ## Why this is worth it on this machine
 
-The hardware is already paid for, so every task that runs locally instead of cloud is straight savings (≈$2–3/mo electricity vs. $200+/mo of stacked subscriptions). The job is **cost reduction + privacy**, not chasing frontier quality. For the economics and the corrected hardware math see [[05 - Tailored Plan (24GB M4)]].
+The hardware is already paid for, so every task that runs locally instead of cloud is straight savings (≈$2–3/mo electricity vs. $200+/mo of stacked subscriptions). The job is **cost reduction + privacy**, not chasing frontier quality. For the economics and the corrected hardware math see [05 - Tailored Plan (24GB M4)](<05 - Tailored Plan (24GB M4).md>).
 
 ## Known limitation to keep in mind
 

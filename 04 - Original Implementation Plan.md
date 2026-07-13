@@ -7,10 +7,10 @@ source: "@hey_madni thread"
 
 # 04 — Original Implementation Plan (source document)
 
-Back to [[README]] · Prev: [[03 - Jobs to be Done]] · Next: [[05 - Tailored Plan (24GB M4)]]
+Back to [README](<README.md>) · Prev: [03 - Jobs to be Done](<03 - Jobs to be Done.md>) · Next: [05 - Tailored Plan (24GB M4)](<05 - Tailored Plan (24GB M4).md>)
 
 > [!info] This is the original file shared at the start, preserved as-is for reference.
-> It was based on a social thread. The corrected, machine-specific version lives in [[05 - Tailored Plan (24GB M4)]], and what was actually built is in [[01 - Setup Instructions]].
+> It was based on a social thread. The corrected, machine-specific version lives in [05 - Tailored Plan (24GB M4)](<05 - Tailored Plan (24GB M4).md>), and what was actually built is in [01 - Setup Instructions](<01 - Setup Instructions.md>).
 
 ---
 
@@ -34,7 +34,7 @@ Deciding factors: unified memory size (how big a model fits) and bandwidth (toke
 | Mac Mini M4 | ~$799 | 32 GB | ~14B | real coding; value sweet spot |
 | Mac Mini M4 Pro | ~$1,399 | 48 GB | ~70B | closest local-to-frontier |
 
-Recommendation: 32 GB minimum; 48 GB if local Claude Code is the main use. *(These figures were later found to be wrong — see [[05 - Tailored Plan (24GB M4)]].)*
+Recommendation: 32 GB minimum; 48 GB if local Claude Code is the main use. *(These figures were later found to be wrong — see [05 - Tailored Plan (24GB M4)](<05 - Tailored Plan (24GB M4).md>).)*
 
 ## Phase 2 — First-boot
 

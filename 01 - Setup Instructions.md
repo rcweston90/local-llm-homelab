@@ -6,7 +6,7 @@ created: 2026-06-14
 
 # 01 — Setup Instructions (what was actually done)
 
-Back to [[README]] · Next: [[02 - How to Run]]
+Back to [README](<README.md>) · Next: [02 - How to Run](<02 - How to Run.md>)
 
 This is the real build log for the Mac Mini M4 (24 GB), done 2026-06-14. Everything below was run and verified on the machine.
 
@@ -46,7 +46,7 @@ curl -s http://localhost:11434/api/version    # -> {"version":"0.30.8"}
 ollama pull qwen2.5-coder:14b      # ~9 GB
 ```
 
-14B is the sweet spot for 24 GB (see [[05 - Tailored Plan (24GB M4)]] for the sizing table). Verified with a direct prompt — model replied correctly in ~10s including cold load.
+14B is the sweet spot for 24 GB (see [05 - Tailored Plan (24GB M4)](<05 - Tailored Plan (24GB M4).md>) for the sizing table). Verified with a direct prompt — model replied correctly in ~10s including cold load.
 
 ## Step 4 — Wire up `claude-local` (without breaking cloud Claude Code)
 
@@ -75,7 +75,7 @@ ANTHROPIC_BASE_URL=http://localhost:11434 ANTHROPIC_AUTH_TOKEN=ollama \
 ANTHROPIC_MODEL=qwen2.5-coder:14b claude -p "Reply with exactly: claude-local works"
 ```
 
-Exited 0 — Claude Code successfully connected to local Ollama. (Output was slightly rough on tool-call formatting; that's the expected local-model tradeoff, see [[03 - Jobs to be Done]].)
+Exited 0 — Claude Code successfully connected to local Ollama. (Output was slightly rough on tool-call formatting; that's the expected local-model tradeoff, see [03 - Jobs to be Done](<03 - Jobs to be Done.md>).)
 
 ## Step 6 — Open WebUI (private chat) via Docker
 
@@ -101,4 +101,4 @@ These are system/security/app settings that must be done by hand:
 3. **(Optional) SSH** — System Settings → General → Sharing → Remote Login, for headless admin.
 4. **Open WebUI admin** — visit `http://localhost:3000` and create the admin account ASAP (first network visitor becomes admin).
 
-See [[02 - How to Run]] for day-to-day usage and [[06 - Troubleshooting]] if something misbehaves.
+See [02 - How to Run](<02 - How to Run.md>) for day-to-day usage and [06 - Troubleshooting](<06 - Troubleshooting.md>) if something misbehaves.
